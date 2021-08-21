@@ -65,14 +65,11 @@ def clean_text(sentence):
     return sentence.strip()
 
 
-    @app.route('/')
-def hello_world():
-    return 'Hello World!'
 
 
 @app.route('/index')
 def index():
-    return flask.render_template('resto.html')
+    return flask.render_template('index.html')
 
 
 @app.route('/predict', methods=['POST'])
