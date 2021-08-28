@@ -15,7 +15,7 @@
 
 - The basic approach was trying a different machine learning model and look for the one who is performing better on that data set. The restaurant reviews are very related to the project topic as reviews are made on websites and we can apply this model on such data sets to get the ratings.
 
-### 2.1 Task Definition
+### Task Definition
 
 > To develop a machine learning model to predict rating contained in a collection of English sentences or a large paragraph.
 1.LR
@@ -25,11 +25,11 @@
 5.TFIDF
 6.BOW
 
-### 3.2 Result
+###  Result
 
 MSE - 0.132
 
-# 6. Future Work
+# Future Work
 
 There is always a scope of improvement. Here are a few things which can be considered to improve. 
 * Different models can also be tested.
