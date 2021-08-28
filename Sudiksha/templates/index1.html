@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  
+
+
+<style>
+h1
+{
+ text-align: center;
+ font-size:300%;
+}
+
+body
+ {
+  background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  background-repeat: no-repeat;
+  text-align: center
+
+}
+
+
+
+.button {
+  background-color: #008CBA;
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  }
+
+ label {
+  width:200px;
+  display: inline-block;
+}
+
+</style>
+</head>
+<body>
+
+
+<div>
+<form action="/predict" method="POST">
+
+<h1 style="color:red;">Restaurant Rating Prediction</h1>
+<label for="review_text", style="color:white;font-size=10;">Please Type your Review:</label>
+<textarea name="review_text" rows="5" cols="30"></textarea>>
+ <br>
+ <br>
+
+<button type="submit",value="Submit", class="button",style="align:center;",style="color:red;">Predict Rating</button>
+</form>
+
+
+<br>
+  <br>
+  <h1 style="color:green;">{{prediction_text}}</h1>
+  
+</body>
+</html>
