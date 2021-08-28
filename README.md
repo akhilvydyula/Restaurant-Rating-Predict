@@ -5,7 +5,7 @@
 - Created by
 @nithish @akhil @sudhiksha
 
-- If you want to see the final result this is the link: https://zomatoratingpredictionapi.herokuapp.com/predict
+- If you want to see the final result this is the link: https://zomatoratingpredictionapi.herokuapp.com/
 
 
 # Business Constraints and Problem Statement
